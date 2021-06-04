@@ -198,6 +198,7 @@ footer {
 	background-image: url(../images/geo.svg);
 	background-size: cover;
 	position: sticky;
+	background-repeat: no-repeat;
 	z-index: 100;
 	max-width: 1400px;
 	margin: auto;
@@ -206,6 +207,23 @@ footer {
 	grid-template-areas: 'intro carousel__section';
 	grid-gap: 4rem;
 	padding: 0rem 5rem 4rem 5rem;
+	animation: animate-geo 60s infinite linear;
+}
+
+@keyframes animate-geo {
+	0% {
+		background-position-x: 0rem;
+		background-position-y: 0rem;
+	}
+
+	50% {
+		background-position-x: -5rem;
+		background-position-y: 7rem;
+	}
+	100% {
+		background-position-x: 0rem;
+		background-position-y: 0rem;
+	}
 }
 
 .button__red {
