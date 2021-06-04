@@ -31,6 +31,10 @@ async function getPosts () {
       perPage += 9;
       getPosts (postUrl);
     });
+
+    if (perPage === 18) {
+      loadMore.style.display = 'none';
+    }
   } catch (error) {
     console.log ('Something went wrong when calling the API.');
     postContainer.innerHTML = `<h2 class="details-name">Sorry, we can't find the blog posts at the moment. Please try again later.</h2>`;
