@@ -39,41 +39,42 @@
 						you as soon as possible.
 					</p>
 				</div>
-				<div class="form__field">
-                    <form name="contact" method="post" data-netlify="true">
-					<label>Your name</label>
-					<p class="form__comment">Minimum 5 characters.</p>
-					<input id="firstName" name="name" type="text" />
-					<div class="form__error" id="firstNameError">
-						Please enter a name with at least 5 characters.
+
+				<form name="contact" method="post" data-netlify="true">
+					<div class="form__field">
+						<label for="name">Your name</label>
+						<p class="form__comment">Minimum 5 characters.</p>
+						<input id="firstName" name="name" type="text" />
+						<div class="form__error" id="firstNameError">
+							Please enter a name with at least 5 characters.
+						</div>
 					</div>
-				</div>
-				<div class="form__field">
-					<label>Your e-mail</label>
-					<p class="form__comment">Required</p>
-					<input id="email" name="email" type="email" />
-					<div class="form__error" id="emailError">
-						Please enter a valid email-address.
+					<div class="form__field">
+						<label for="email">Your e-mail</label>
+						<p class="form__comment">Required</p>
+						<input id="email" name="email" type="email" />
+						<div class="form__error" id="emailError">
+							Please enter a valid email-address.
+						</div>
 					</div>
-				</div>
-				<div class="form__field">
-					<label>Subject</label>
-					<p class="form__comment">Minimum 15 characters.</p>
-					<input id="subject" name="subject" type="text" />
-					<div class="form__error" id="subjectError">
-						Please enter a subject with at least 15 characters.
+					<div class="form__field">
+						<label for="subject">Subject</label>
+						<p class="form__comment">Minimum 15 characters.</p>
+						<input id="subject" name="subject" type="text" />
+						<div class="form__error" id="subjectError">
+							Please enter a subject with at least 15 characters.
+						</div>
 					</div>
-				</div>
-				<div class="form__field">
-					<label>Your message</label>
-					<p class="form__comment">Minimum 25 characters.</p>
-					<textarea id="message"></textarea>
-					<div class="form__error" id="messageError">
-						Please enter a message with at least 25 characters.
+					<div class="form__field">
+						<label for="message">Your message</label>
+						<p class="form__comment">Minimum 25 characters.</p>
+						<textarea id="message"></textarea>
+						<div class="form__error" id="messageError">
+							Please enter a message with at least 25 characters.
+						</div>
 					</div>
-				</div>
-				<button type="submit" id="submit">Send message</button>
-            </form>
+					<button type="submit" id="submit">Send message</button>
+				</form>
 			</section>
 		</main>
 		<footer>
