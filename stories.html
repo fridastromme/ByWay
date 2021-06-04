@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ByWay | Read our stories</title>
+		<meta
+			name="description"
+			content="Browse through our inspiring stories and tips."
+		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="CSS/styles.css" rel="stylesheet" />
+	</head>
+	<body id="body__stories">
+		<div class="skip"><a href="#content">Skip to main content</a></div>
+		<header>
+			<div class="logo__container">
+				<a href="index.html"
+					><img
+						src="images/ByWay-logo-negative.png"
+						class="logo"
+						alt="Blog logo"
+				/></a>
+			</div>
+			<input id="hamburger-menu" type="checkbox" />
+			<label for="hamburger-menu"
+				><img
+					alt="site menu"
+					id="hamburger"
+					src="images/hamburger-menu-neg.png"
+			/></label>
+			<nav class="header__nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="stories.html" class="active__stories">Stories</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main id="content">
+			<section class="stories__page">
+				<div class="stories__container">
+					<h1>Our stories</h1>
+					<div class="post">
+						<div class="loader"></div>
+					</div>
+					<div class="load">
+						<a class="loadmore">Load more</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<nav class="nav__footer">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="stories.html" class="active__footer">Stories</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="write-for-us">
+				<p class="footer__p">Want to write for us?</p>
+				<p class="footer__p2">Send your ideas to hi@byway.com</p>
+			</div>
+		</footer>
+		<script src="js/postsAPI.js"></script>
+	</body>
+</html>
